@@ -4,9 +4,9 @@
 :Revision: 0.0.1
 :License: CC BY-NC-SA
 
-= Project: {Project}
+= Project: Air Hockey Table
 
-Describe your project
+Code for an air hockey table.
 
 == Step 1: Installation
 
@@ -35,7 +35,7 @@ This license lets others remix, adapt, and build upon your work non-commercially
 as long as they credit you and license their new creations under the identical terms.
 
 === Contributing
-To contribute to this project please contact William Rice ricewilliam125@gmail.com
+To contribute to this project please contact William Rice at ricewilliam125@gmail.com
 
 === BOM
 Add the bill of the materials you need for this project.
