@@ -10,6 +10,7 @@ Code for an air hockey table.
 
 == Step 1: Installation
 
+Installed on an Arduino Nano R3
 
 == Step 2: Assemble the circuit
 
@@ -22,7 +23,7 @@ Upload the code contained in this sketch on to your board
 === Folder structure
 
 ....
- sketch123                => Arduino sketch folder
+ Air-Hockey-Table         => Arduino sketch folder
   ├── sketch123.ino       => main Arduino file
   ├── schematics.png      => (optional) an image of the required schematics
   ├── layout.png          => (optional) an image of the layout
