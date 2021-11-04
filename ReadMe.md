@@ -47,9 +47,3 @@ Add the bill of the materials you need for this project.
 | L1 | Red LED        | 2345-asdf   | 5
 | A1 | Arduino Zero   | ABX00066    | 1
 |===
-
-
-### Help
-This document is written in the _AsciiDoc_ format, a markup language to describe documents.
-If you need help you can search the http://www.methods.co.nz/asciidoc[AsciiDoc homepage]
-or consult the http://powerman.name/doc/asciidoc[AsciiDoc cheatsheet]
