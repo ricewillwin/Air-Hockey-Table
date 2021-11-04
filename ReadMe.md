@@ -4,23 +4,23 @@
 :Revision: 0.0.1
 :License: CC BY-NC-SA
 
-= Project: Air Hockey Table
+# Project: Air Hockey Table
 
 Code for an air hockey table.
 
-== Step 1: Installation
+## Step 1: Installation
 
 Installed on an Arduino Nano R3
 
-== Step 2: Assemble the circuit
+## Step 2: Assemble the circuit
 
 Assemble the circuit following the diagram layout.png attached to the sketch
 
-== Step 3: Load the code
+## Step 3: Load the code
 
 Upload the code contained in this sketch on to your board
 
-=== Folder structure
+### Folder structure
 
 ....
  Air-Hockey-Table         => Arduino sketch folder
@@ -30,15 +30,15 @@ Upload the code contained in this sketch on to your board
   └── ReadMe.adoc         => this text file
 ....
 
-=== License
+### License
 This project is released under a CC BY-NC-SA License.
 This license lets others remix, adapt, and build upon your work non-commercially,
 as long as they credit you and license their new creations under the identical terms.
 
-=== Contributing
+### Contributing
 To contribute to this project please contact William Rice at ricewilliam125@gmail.com
 
-=== BOM
+### BOM
 Add the bill of the materials you need for this project.
 
 |===
@@ -49,7 +49,7 @@ Add the bill of the materials you need for this project.
 |===
 
 
-=== Help
+### Help
 This document is written in the _AsciiDoc_ format, a markup language to describe documents.
 If you need help you can search the http://www.methods.co.nz/asciidoc[AsciiDoc homepage]
 or consult the http://powerman.name/doc/asciidoc[AsciiDoc cheatsheet]
