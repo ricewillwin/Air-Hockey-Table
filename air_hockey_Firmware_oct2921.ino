@@ -29,3 +29,11 @@ void setup() {
 void loop() {
     
 }
+
+// Led Light Code
+
+void setColor(int R, int G, int B){
+  
+}
+
+
