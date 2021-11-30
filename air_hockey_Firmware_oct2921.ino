@@ -39,13 +39,10 @@ void loop() {
 // ####################
 class Lights {
   private:
-    int[] pins;
-    bool lightState;
+    int[] pins;           // Contains a list of all pins for the light strip
+    bool lightState;      // Boolean for state of the light strip
 
   public:
-  
-  
-
     // Creates the Light Object
     Lights(byte[] pins) {
       this->pins = pins;
