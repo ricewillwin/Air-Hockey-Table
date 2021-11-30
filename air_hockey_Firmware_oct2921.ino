@@ -8,6 +8,7 @@ that goals can be counted and that the score of each
 side can be displayed on a seven segment display.
 */
 
+#include <Arduino.h>
 
 // Variables
 int blueGoalSensor = 7;
@@ -15,6 +16,9 @@ int redGoalSensor = 8;
 
 int perimeterLedsPins[] = {9,10,11};
 
+// ###################
+// ###  Main Code  ###
+// ###################
 void setup() {
     
     pinMode(blueGoalSensor, INPUT);
@@ -30,10 +34,40 @@ void loop() {
     
 }
 
-// Led Light Code
+// ####################
+// ###  Led Lights  ###
+// ####################
+class Lights {
+  private:
+    int[] pins;
+    bool lightState;
 
-void setColor(int R, int G, int B){
+  public:
   
-}
+  
 
+    // Creates the Light Object
+    Lights(byte[] pins) {
+      this->pins = pins;
+      lightState = false;
+      init();
+    }
+  
+  
+  
+    // Initialises the Light Strip
+    void init() {
+      for (i = 0; i < len(pins); i++) {
+        pinMode(i, INPUT);
+      }
+    }
+  
 
+  
+    // Returns the state of the lights (on / off) as a boolean
+    // on   ->  true
+    // off  ->  false
+    bool getState() {
+      return (lightMode == HIGH);
+    }
+};
