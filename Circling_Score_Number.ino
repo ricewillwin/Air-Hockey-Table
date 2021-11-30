@@ -1,3 +1,5 @@
+#include <Arduino.h>
+
 int order[] = {6,3,4,5,8,7,11};
 int score = -1;
 
