@@ -23,7 +23,7 @@ Air Hockey Table
 |   .gitignore
 │   Air Hockey Rink Design.cdr   
 │
-└───Code
+├───Code
 │   │   air_hockey_Firmware_oct2921.ino
 │   
 └───Test Code
@@ -31,7 +31,7 @@ Air Hockey Table
 ```
 
 ### License
-This project is released under a GNU GENERAL PUBLIC LICENSE License.
+This project is releasCed under a GNU GENERAL PUBLIC LICENSE License.
 This license lets others remix, adapt, and build upon your work non-commercially,
 as long as they credit you and license their new creations under the identical terms.
 
