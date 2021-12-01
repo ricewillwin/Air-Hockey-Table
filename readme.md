@@ -17,26 +17,21 @@ Upload the code contained in this sketch on to your board
 ### Folder structure
 
 ```
-project
+Air Hockey Table
 │   README.md
-│   file001.txt    
+|   LICENSE
+|   .gitignore
+│   Air Hockey Rink Design.cdr   
 │
-└───folder1
-│   │   file011.txt
-│   │   file012.txt
-│   │
-│   └───subfolder1
-│       │   file111.txt
-│       │   file112.txt
-│       │   ...
+└───Code
+│   │   air_hockey_Firmware_oct2921.ino
 │   
-└───folder2
-    │   file021.txt
-    │   file022.txt
+└───Test Code
+    │   Circling_Score_Number.ino
 ```
 
 ### License
-This project is released under a CC BY-NC-SA License.
+This project is released under a GNU GENERAL PUBLIC LICENSE License.
 This license lets others remix, adapt, and build upon your work non-commercially,
 as long as they credit you and license their new creations under the identical terms.
 
