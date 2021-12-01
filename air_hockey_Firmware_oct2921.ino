@@ -8,13 +8,17 @@ that goals can be counted and that the score of each
 side can be displayed on a seven segment display.
 */
 
+// #########################
+// ###  FUN WITH HOCKET  ###
+// #########################
+
+// Libraries
 #include <Arduino.h>
 
 // Variables
 int blueGoalSensor = 7;
 int redGoalSensor = 8;
-
-int perimeterLedsPins[] = {9,10,11};
+int ledPins[] = {9, 10, 11};
 
 // ###################
 // ###  Main Code  ###
@@ -23,10 +27,9 @@ void setup() {
     
     pinMode(blueGoalSensor, INPUT);
     pinMode(redGoalSensor, INPUT);
-    
-    for(int pin = 0; pin < perimeterLedsPins; pin++) {
-      pinMode(pin, OUTPUT);
-    }
+
+    Lights ledStrip(ledPins);
+
     
 }
 
@@ -43,27 +46,25 @@ void loop() {
 // ####################
 class Lights {
   private:
-    int[] pins;           // Contains a list of all pins for the light strip
+    int pins[];           // Contains a list of all pins for the light strip
     bool lightState;      // Boolean for state of the light strip
 
   public:
     // Creates the Light Object
-    Lights(byte[] pins) {
+    Lights(byte pins[]) {
       this->pins = pins;
       lightState = false;
       init();
     }
   
   
-  
     // Initialises the Light Strip
     void init() {
-      for (i = 0; i < len(pins); i++) {
+      for (i = 0; i < sizeOf(pins); i++) {
         pinMode(i, INPUT);
       }
     }
   
-
   
     // Returns the state of the lights (on / off) as a boolean
     // on   ->  true
