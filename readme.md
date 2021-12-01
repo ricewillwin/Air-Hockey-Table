@@ -19,8 +19,8 @@ Upload the code contained in this sketch on to your board
 ```
 Air Hockey Table
 │   README.md
-|   LICENSE
-|   .gitignore
+│   LICENSE
+│   .gitignore
 │   Air Hockey Rink Design.cdr   
 │
 ├───Code
