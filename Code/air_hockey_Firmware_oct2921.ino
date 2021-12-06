@@ -51,7 +51,7 @@ class Lights {
 
   public:
     // Creates the Light Object
-    Lights(byte pins[]) {
+    Lights(int pins[]) {
       this->pins = pins;
       lightState = false;
       init();
@@ -73,3 +73,32 @@ class Lights {
       return (lightMode == HIGH);
     }
 };
+
+
+
+
+
+// ################
+// ###  Sensor  ###
+// ################
+class Sensor {
+  private:
+    int pins[];
+    bool goal;
+
+  public:
+
+  Sensor(int pins[]) {
+    this->pins = pins;
+    init();
+  }
+
+  void init() {
+    for (i = 0; i < sizeOf(pins); i++) {
+      pinMode(i, INPUT);
+    }
+  }
+
+  bool 
+
+}
