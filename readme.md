@@ -41,9 +41,10 @@ To contribute to this project please contact William Rice at ricewilliam125@gmai
 ### BOM
 Add the bill of the materials you need for this project.
 
-| ID | Part name      | Part number | Quantity |
-|----|----------------|-------------|----------|
-| R1 | 10k Resistor   | 1234-abcd   | 10       |
-| L1 | Red LED        | 2345-asdf   | 5        |
-| A1 | Arduino Zero   | ABX00066    | 1        |
+| ID         | Part name      | Part number | Quantity |
+|------------|----------------|-------------|----------|
+| Play Field | Hardboard Tile | 205995949   | 1        |
+| A1         | Arduino Zero   | ABX00066    | 1        |
+|            |                |             |          |
+|            |                |             |          |
 
