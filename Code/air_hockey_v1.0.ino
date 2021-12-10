@@ -109,7 +109,7 @@ class Lights {
       analogWrite(this->pins[this->bluePin], colors[2]);
     }
 
-};
+}
 
 
 
@@ -135,7 +135,5 @@ class Sensor {
       pinMode(i, INPUT);
     }
   }
-
-  bool 
 
 }
