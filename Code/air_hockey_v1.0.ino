@@ -14,6 +14,7 @@ side can be displayed on a seven segment display.
 
 // Libraries
 #include <Arduino.h>
+#include <Servo.h>
 
 // Variables
 int blueGoalSensor = 7;
@@ -29,10 +30,14 @@ void setup() {
     pinMode(redGoalSensor, INPUT);
 
     Lights ledStrip(ledPins);
-
     
 }
 
+
+
+// ###################
+// ###  Main Loop  ###
+// ###################
 void loop() {
     
 }
@@ -47,6 +52,10 @@ void loop() {
 class Lights {
   private:
     int pins[];           // Contains a list of all pins for the light strip
+    int color[];          // Contains the current color of the LEDs in RGBa form
+    int redPin = 0;       // Red Pin Reference
+    int greenPin = 0;     // Green Pin Reference
+    int bluePin = 1;      // Blue Pin Reference
     bool lightState;      // Boolean for state of the light strip
 
   public:
@@ -64,14 +73,34 @@ class Lights {
         pinMode(i, INPUT);
       }
     }
+
+
+    // Set Color
+    void setColor(int colors[]) {
+      this->color = colors;
+      sendColors(colors);
+    }
   
   
     // Returns the state of the lights (on / off) as a boolean
-    // on   ->  true
-    // off  ->  false
     bool getState() {
-      return (lightMode == HIGH);
+      return (this->lightMode == HIGH);
     }
+    
+
+    // Returns the color of the lights as an integer array
+    int[] getColor() {
+      return this->color;
+    }
+
+
+    // Sends the Color to the Lights
+    void sendColors(int colors[]) {
+      analogWrite(this->pins[this->redPin], colors[0]);
+      analogWrite(this->pins[this->greenPin], colors[1]);
+      analogWrite(this->pins[this->bluePin], colors[2]);
+    }
+
 };
 
 
