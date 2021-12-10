@@ -9,17 +9,25 @@ side can be displayed on a seven segment display.
 */
 
 // #########################
-// ###  FUN WITH HOCKET  ###
+// ###  Air Hockey Code  ###
 // #########################
 
 // Libraries
 #include <Arduino.h>
 #include <Servo.h>
 
+
+
+
+
 // Variables
 int blueGoalSensor = 7;
 int redGoalSensor = 8;
 int ledPins[] = {9, 10, 11};
+
+
+
+
 
 // ###################
 // ###  Main Code  ###
