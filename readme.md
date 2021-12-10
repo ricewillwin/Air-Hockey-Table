@@ -41,6 +41,7 @@ To contribute to this project please contact William Rice at ricewilliam125@gmai
 ### BOM
 Add the bill of the materials you need for this project.
 
+<<<<<<< HEAD
 | ID | Part name      | Part number | Quantity | Cost | Notes        |
 |----|----------------|-------------|----------|------|--------------|
 | A1 | Arduino Nano   | ABX00066    | 1        |      |              |
@@ -49,3 +50,12 @@ Add the bill of the materials you need for this project.
 | S1 | Long Side      | xxxxxxxx    | 2        |      | Used Plywood |
 | S2 | Short Side     | xxxxxxxx    | 2        |      | Used Plywood |
 | B3 | Play field     | (Home Depot)[https://www.homedepot.com/p/EUCATILE-32-sq-ft-96-in-x-48-in-Hardboard-Thrifty-White-Tile-Board-HDDPTW48/205995949]  | 2        |      |              |
+=======
+| ID         | Part name      | Part number | Quantity |
+|------------|----------------|-------------|----------|
+| Play Field | Hardboard Tile | 205995949   | 1        |
+| A1         | Arduino Zero   | ABX00066    | 1        |
+|            |                |             |          |
+|            |                |             |          |
+
+>>>>>>> a9326cda64c4b6653ecca28e580e340e344d7914
