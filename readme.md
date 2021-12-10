@@ -41,11 +41,11 @@ To contribute to this project please contact William Rice at ricewilliam125@gmai
 ### BOM
 Add the bill of the materials you need for this project.
 
-| ID | Part name      | Part number | Quantity | Cost | Notes        |
+| ID | Part name      | Part number | Quantity | Cost (USD) | Notes        |
 |----|----------------|-------------|----------|------|--------------|
-| A1 | Arduino Nano   | ABX00066    | 1        |      |              |
+| A1 | Arduino Nano   | [A000005](https://store.arduino.cc/products/arduino-nano)    | 1        | $20.70 |              |
 | B1 | Horz. Beam     | xxxxxxxx    | 4        |      | Used Plywood |
 | B2 | Vert. Beam     | xxxxxxxx    | 5        |      | Used Plywood |
 | S1 | Long Side      | xxxxxxxx    | 2        |      | Used Plywood |
 | S2 | Short Side     | xxxxxxxx    | 2        |      | Used Plywood |
-| B3 | Play field     | [Home Depot](https://www.homedepot.com/p/EUCATILE-32-sq-ft-96-in-x-48-in-Hardboard-Thrifty-White-Tile-Board-HDDPTW48/205995949)  | 2        |      |              |
+| B3 | Play field     | [Home Depot](https://www.homedepot.com/p/EUCATILE-32-sq-ft-96-in-x-48-in-Hardboard-Thrifty-White-Tile-Board-HDDPTW48/205995949)  | 2        | $17.98 |              |
