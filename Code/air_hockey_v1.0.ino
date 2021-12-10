@@ -22,6 +22,7 @@ side can be displayed on a seven segment display.
 
 
 // Variables
+struct pt pt1;
 int blueGoalSensor = 7;
 int redGoalSensor = 8;
 int ledPins[] = {9, 10, 11};
