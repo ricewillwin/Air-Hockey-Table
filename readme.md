@@ -31,7 +31,7 @@ Air Hockey Table
 ```
 
 ### License
-This project is releasCed under a GNU GENERAL PUBLIC LICENSE License.
+This project is released under a GNU GENERAL PUBLIC LICENSE License.
 This license lets others remix, adapt, and build upon your work non-commercially,
 as long as they credit you and license their new creations under the identical terms.
 
@@ -41,11 +41,8 @@ To contribute to this project please contact William Rice at ricewilliam125@gmai
 ### BOM
 Add the bill of the materials you need for this project.
 
-| ID | Part name      | Part number | Quantity | Cost (USD) | Notes        |
-|----|----------------|-------------|----------|------|--------------|
-| A1 | Arduino Nano   | [A000005](https://store.arduino.cc/products/arduino-nano)    | 1        | $20.70 |              |
-| B1 | Horz. Beam     | xxxxxxxx    | 4        |      | Used Plywood |
-| B2 | Vert. Beam     | xxxxxxxx    | 5        |      | Used Plywood |
-| S1 | Long Side      | xxxxxxxx    | 2        |      | Used Plywood |
-| S2 | Short Side     | xxxxxxxx    | 2        |      | Used Plywood |
-| B3 | Play field     | [Home Depot](https://www.homedepot.com/p/EUCATILE-32-sq-ft-96-in-x-48-in-Hardboard-Thrifty-White-Tile-Board-HDDPTW48/205995949)  | 2        | $17.98 |              |
+| ID | Part name      | Part number | Quantity | Cost (USD) |
+|----|----------------|-------------|----------|------|
+| A1 | Arduino Nano   | [A000005](https://store.arduino.cc/products/arduino-nano) | 1        | $20.70 |              |
+| B1 | Plywood        | xxxxxxxx    | 1        |      |
+| B2 | Play field     | [Home Depot](https://www.homedepot.com/p/EUCATILE-32-sq-ft-96-in-x-48-in-Hardboard-Thrifty-White-Tile-Board-HDDPTW48/205995949) | 2        | $17.98 |
