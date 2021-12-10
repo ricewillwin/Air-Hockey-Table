@@ -48,4 +48,4 @@ Add the bill of the materials you need for this project.
 | B2 | Vert. Beam     | xxxxxxxx    | 5        |      | Used Plywood |
 | S1 | Long Side      | xxxxxxxx    | 2        |      | Used Plywood |
 | S2 | Short Side     | xxxxxxxx    | 2        |      | Used Plywood |
-| B3 | Play field     | (Home Depot)[https://www.homedepot.com/p/EUCATILE-32-sq-ft-96-in-x-48-in-Hardboard-Thrifty-White-Tile-Board-HDDPTW48/205995949]  | 2        |      |              |
+| B3 | Play field     | [Home Depot](https://www.homedepot.com/p/EUCATILE-32-sq-ft-96-in-x-48-in-Hardboard-Thrifty-White-Tile-Board-HDDPTW48/205995949)  | 2        |      |              |
