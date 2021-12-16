@@ -4,7 +4,7 @@ Code for an air hockey table.
 
 ## Step 1: Installation
 
-Installed on an Arduino Nano R3
+Installed on an Arduino Nano R3.
 
 ## Step 2: Assemble the circuit
 

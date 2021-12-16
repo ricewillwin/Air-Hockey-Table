@@ -40,6 +40,8 @@ void setup() {
     pinMode(redGoalSensor, INPUT);
 
     Lights ledStrip(ledPins);
+
+    PT_INIT(&pt1);
     
 }
 
@@ -49,7 +51,24 @@ void setup() {
 // ###  Main Loop  ###
 // ###################
 void loop() {
-    
+
+    protothreadFunction(&pt1);
+
+}
+
+
+
+
+
+// Some Function
+static void protothreadFunction(struct pt *pt) {
+
+  PT_BEGIN(pt);
+
+  
+
+  PT_END(pt);
+
 }
 
 
